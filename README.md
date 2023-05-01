@@ -1,6 +1,6 @@
-# Supreme Auto Filler
+# Auto Filler
 
-A Chrome extension that fills in the checkout page of [Supreme](https://www.supremenewyork.com)
+A Chrome extension that auto fill information
 
 ## About the Project
 This is a Chrome extension that autofills the checkout page or Supreme.

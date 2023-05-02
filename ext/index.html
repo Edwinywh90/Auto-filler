@@ -11,11 +11,15 @@
         <div style="margin-top: 50px; margin-left: 10px; margin-right: 10px;">
             <!-- Buttons -->
             <div style="text-align: center; margin-top: 70px; margin-bottom:10px">
+
+                <!-- Load & fill fields -->
+                <button class="btn btn-primary" id="load-fill">Load & Fill</button>
+
                 <!-- Auto fill -->
-                <button class="btn btn-primary" id="auto-fill">Auto Fill</button>
+                <!-- <button class="btn btn-primary" id="auto-fill">Auto Fill</button> -->
 
                 <!-- Reset fields -->
-                <button class="btn btn-primary" id="reset-fields">Reset Fields</button>
+                <button class="btn btn-primary" id="reset-fields">Reset</button>
 
                 <!-- Save fields -->
                 <button class="btn btn-primary" id="save">Save</button>
@@ -38,7 +42,8 @@
 
             <div class="input-group input-group-sm mb-3">
                 <span class="input-group-text" id="inputGroup-sizing-sm">Description</span>
-                <input type="text" id="description" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                <textarea class="form-control" id="description" aria-label="With textarea" aria-describedby="inputGroup-sizing-sm"></textarea>
+                <!-- <input type="text" id="description" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm"> -->
             </div>
             
             <div class="input-group input-group-sm mb-3">
